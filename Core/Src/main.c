@@ -1,18 +1,17 @@
 #include "main.h"
 #include "board.h"
-#include <stdio.h>
+#include "screen.h"
 
-#include "GUI_Paint.h"
-#include "fonts.h"
-#include "image.h"
-#include "LCD_Test.h"
+#include <stdio.h>
 
 int main(void)
 {
     board_init();
     printf("\nStart Program!\n");
 
-    LCD_1in47_test();
+    screen_splash();
+    screen_home();
+
     while (1)
     {
     }

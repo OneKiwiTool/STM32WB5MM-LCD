@@ -48,12 +48,10 @@
 									<listOptionValue builtIn="false" value="../Drivers/CMSIS/Device/ST/STM32WBxx/Include"/>
 									<listOptionValue builtIn="false" value="../Drivers/CMSIS/Include"/>
 									<listOptionValue builtIn="false" value="../drv"/>
-									<listOptionValue builtIn="false" value="../waveshare/LCD"/>
-									<listOptionValue builtIn="false" value="../waveshare/image"/>
-									<listOptionValue builtIn="false" value="../waveshare/GUI_DEV"/>
-									<listOptionValue builtIn="false" value="../waveshare/Fonts"/>
-									<listOptionValue builtIn="false" value="../waveshare/example"/>
-									<listOptionValue builtIn="false" value="../waveshare/Config"/>
+									<listOptionValue builtIn="false" value="../lcd/images"/>
+									<listOptionValue builtIn="false" value="../lcd/fonts"/>
+									<listOptionValue builtIn="false" value="../lcd/screen"/>
+									<listOptionValue builtIn="false" value="../lcd/st7789"/>
 								</option>
 								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1679359389" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c"/>
 							</tool>
@@ -83,7 +81,7 @@
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Core"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Drivers"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="drv"/>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="waveshare"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="lcd"/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -160,7 +158,7 @@
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Core"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Drivers"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="drv"/>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="waveshare"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="lcd"/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
