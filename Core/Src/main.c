@@ -9,16 +9,28 @@ int main(void)
     board_init();
     printf("\nStart Program!\n");
 
-    screen_splash();
-    screen_home();
+    ST7789_Init();
+    ST7789_Fill_Color(BLACK);
+    HAL_Delay(200);
 
     HAL_Delay(1000);
 
     screen_splash();
-        screen_home();
+    screen_home();
 
-    //screen_splash();
-	//HAL_Delay(1000);
+    HAL_Delay(2000);
+    screen_setting();
+
+    HAL_Delay(2000);
+    screen_pair();
+
+    HAL_Delay(2000);
+    screen_info();
+
+    HAL_Delay(2000);
+    screen_pairing();
+
+    screen_paired();
 
     while (1)
     {

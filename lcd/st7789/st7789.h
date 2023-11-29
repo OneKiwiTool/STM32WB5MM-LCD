@@ -88,7 +88,7 @@
     #endif
 
     #if ST7789_ROTATION == 2
-        #define ST7789_WIDTH 170
+        #define ST7789_WIDTH 172
         #define ST7789_HEIGHT 320
         #define X_SHIFT 35
         #define Y_SHIFT 0
@@ -218,6 +218,7 @@ void ST7789_WriteString(uint16_t x, uint16_t y, const char *str, sFONT* Font, ui
 
 /* Extented Graphical functions. */
 void ST7789_DrawFilledRectangle(uint16_t x, uint16_t y, uint16_t w, uint16_t h, uint16_t color);
+void ST7789_DrawFilledRectangleCorner(uint16_t x, uint16_t y, uint16_t w, uint16_t h, uint16_t r, uint16_t color);
 void ST7789_DrawTriangle(uint16_t x1, uint16_t y1, uint16_t x2, uint16_t y2, uint16_t x3, uint16_t y3, uint16_t color);
 void ST7789_DrawFilledTriangle(uint16_t x1, uint16_t y1, uint16_t x2, uint16_t y2, uint16_t x3, uint16_t y3, uint16_t color);
 void ST7789_DrawFilledCircle(int16_t x0, int16_t y0, int16_t r, uint16_t color);

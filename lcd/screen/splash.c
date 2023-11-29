@@ -3,9 +3,24 @@
 void screen_splash(void)
 {
     ST7789_Init();
-    ST7789_DrawImage(15, 90, 140, 140, skua);
-    for(uint8_t i = 5; i < 160; i++){
-        ST7789_DrawLine(i, 300, i, 305, BLACK);
-        HAL_Delay(10);
-    }
+    ST7789_Fill_Color(BLACK);
+    HAL_Delay(200);
+    ST7789_DrawImage(25, 111, 120, 96, splash1);
+    HAL_Delay(200);
+    //ST7789_DrawImage(25, 111, 120, 96, splash2);
+    //HAL_Delay(200);
+    ST7789_DrawImage(25, 111, 120, 96, splash3);
+    HAL_Delay(200);
+    //ST7789_DrawImage(25, 111, 120, 96, splash4);
+    //HAL_Delay(200);
+    ST7789_DrawImage(25, 111, 120, 96, splash5);
+    HAL_Delay(200);
+    //ST7789_DrawImage(25, 111, 120, 96, splash6);
+    //HAL_Delay(200);
+    ST7789_DrawImage(25, 111, 120, 96, splash7);
+    HAL_Delay(200);
+    //ST7789_DrawImage(25, 111, 120, 96, splash8);
+    //HAL_Delay(200);
+    ST7789_DrawImage(25, 111, 120, 96, splash9);
+    HAL_Delay(1000);
 }
