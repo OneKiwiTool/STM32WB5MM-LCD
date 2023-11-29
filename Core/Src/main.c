@@ -9,14 +9,22 @@ int main(void)
     board_init();
     printf("\nStart Program!\n");
 
+    screen_splash();
+    screen_home();
+
+    HAL_Delay(1000);
+
+    screen_splash();
+        screen_home();
+
     //screen_splash();
-    //screen_home();
+	//HAL_Delay(1000);
 
     while (1)
     {
-		screen_splash();
-		screen_home();
-		HAL_Delay(1000);
+		//screen_splash();
+		//screen_home();
+		//HAL_Delay(1000);
     }
 }
 
